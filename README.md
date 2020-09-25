@@ -4,6 +4,20 @@ This is a Operate-First toolbox that comprises of commonly used tooling to suppl
 
 ## Usage
 
+### Install the toolbox command
+
+You will need the [toolbox][] command. If you are on a recent Fedora, you can:
+
+```
+dnf install toolbox
+```
+
+Or you can grab a [release][] and install the `toolbox` script in your `$PATH`
+manually.
+
+[toolbox]: https://github.com/containers/toolbox
+[release]: https://github.com/containers/toolbox/releases
+
 ### Create your toolbox container
 
 ```shell
